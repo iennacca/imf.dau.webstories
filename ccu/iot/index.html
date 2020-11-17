@@ -1,0 +1,127 @@
+<!doctype html>
+<html ⚡>
+  <head>
+    <meta charset="utf-8">
+    <title>Technologies for fighting climate change</title>
+    <link rel="canonical" href="index.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
+    <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
+    <style amp-custom>
+      amp-story {
+        font-family: 'Oswald',sans-serif;
+        color: #fff;
+      }
+      amp-story-page {
+        background-color: rgb(12, 74, 124);
+      }
+      h1 {
+        font-weight: bold;
+        font-size: 2.875em;
+        font-weight: normal;
+        line-height: 1.174;
+      }
+      p {
+        font-weight: normal;
+        font-size: 1.3em;
+        line-height: 1.5em;
+        background-color: rgba(12, 74, 124, 0.8);
+      }
+      q {
+        font-weight: 300;
+        font-size: 1.1em;
+      }
+      strong {
+        font-weight: bold;
+        font-size: 2.875em;
+        font-weight: normal;
+        line-height: 1.174;
+        background-color: rgba(12, 74, 124, 0.8);
+      }
+      em {
+        background-color: rgba(12, 74, 124, 0.8);
+      }
+      amp-story-grid-layer.bottom {
+        align-content:end;
+      }
+      amp-story-grid-layer.noedge {
+        padding: 0px;
+      }
+      amp-story-grid-layer.center-text {
+        align-content: center;
+      }
+      .wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+      }
+      .banner-text {
+        text-align: center;
+        background-color: #000;
+        line-height: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <amp-story standalone title="Technologies for fighting climate change" publisher="DigitalAdvisory@IMF" >
+      <!-- cover --> 
+      <amp-story-page id="cover">
+        <amp-story-grid-layer template="fill">
+          <div animate-in="zoom-out" animate-in-duration="10s">
+            <amp-img src="/ccu/iot/assets/iot.intro.png"
+                width="720" height="1280"
+                layout="fixed"
+                animate-in="pan-right">
+            </amp-img>
+          </div>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical">
+          <h1 >Technologies for fighting climate change</h1>
+          <p align="right">digital advisory / imf</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- intro --> 
+      <amp-story-page id="issue">
+        <amp-story-grid-layer template="vertical">
+          <p>Numerous digital advances can contribute to the fight against climate change. Let's start with the Internet of Things.</p>
+          <amp-img src="/ccu/iot/assets/iot.intro.png"
+              width="720" height="1280"
+              layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- agriculture --> 
+      <amp-story-page id="agriculture">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="/ccu/iot/assets/iot.garden.jpg"
+              width="720" height="1280"
+              layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="thirds">
+          <p grid-area="lower-third">Adoption of IoT reduces waste and enhances productivity, whether it be from targeted fertilizer use, or enhanced plant health monitoring.</p>
+        </amp-story-grid-layer>
+        </amp-story-page>
+      
+      <!-- industry --> 
+      <amp-story-page id="industry">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="/ccu/iot/assets/iot.oilwell.jpg"
+              width="720" height="1280"
+              layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="thirds">
+          <p grid-area="lower-third">Smart devices can allow microgrids to come online when conventional utility networks fail or become unavailable.</p>
+        </amp-story-grid-layer>
+        </amp-story-page>
+      
+      <!-- bookend -->
+      <amp-story-bookend src="/ccu/iot/bookend.json" layout="nodisplay"></amp-story-bookend>
+    </amp-story>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "bookendVersion": "v1.0",
+  "shareProviders": [
+    "facebook",
+    "twitter",
+    "email"
+  ],
+  "components": [
+    {
+      "type": "heading",
+      "text": "More to read"
+    },
+    {
+      "type": "small",
+      "title": "IOT Transforming The Future of Agriculture",
+      "url": "https://www.iotsworldcongress.com/iot-transforming-the-future-of-agriculture/",
+      "image": "/ccu/iot/assets/iot.garden.jpg"
+    },
+    {
+      "type": "small",
+      "title": "How The Internet Of Things Will Help Fight Climate Change",
+      "url": "https://www.forbes.com/sites/simonchandler/2019/11/05/how-the-internet-of-things-will-help-fight-climate-change/?sh=2b03162358a3",
+      "image": "/ccu/iot/assets/iot.oilwell.jpg"
+    },
+    {
+      "type": "cta-link",
+      "links": [
+        {
+          "text": "About the Digital Advisory Unit",
+          "url": "https://www.imf.org/"
+        }
+      ]
+    }
+  ]
+}
