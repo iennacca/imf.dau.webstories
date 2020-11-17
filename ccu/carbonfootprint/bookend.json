@@ -12,30 +12,28 @@
     },
     {
       "type": "small",
-      "title": "Learn about cats",
-      "url": "https://wikipedia.org/wiki/Cat",
-      "image": "assets/bookend_cats.jpg"
+      "title": "The Internet Cloud Has a Dirty Secret",
+      "url": "https://fortune.com/2019/09/18/internet-cloud-server-data-center-energy-consumption-renewable-coal/",
+      "image": "/ccu/carbonfootprint/assets/climatechange.hamina.jpg"
     },
     {
-      "type": "landscape",
-      "title": "Learn about border collies",
-      "url": "https://wikipedia.org/wiki/Border_Collie",
-      "image": "assets/bookend_dogs.jpg",
-      "category": "Dogs"
+      "type": "small",
+      "title": "Bitcoin is an energy hog. Where is all that electricity coming from?",
+      "url": "https://www.vox.com/2019/6/18/18642645/bitcoin-energy-price-renewable-china",
+      "image": "/ccu/carbonfootprint/assets/climatechange.bitcoin.png"
     },
     {
-      "type": "portrait",
-      "title": "Learn about macaws",
-      "url": "https://wikipedia.org/wiki/Macaw",
-      "image": "assets/bookend_birds.jpg",
-      "category": "birds"
+      "type": "small",
+      "title": "Data centers explore novel ways to cut energy use",
+      "url": "https://www.computerworld.com/article/2534587/data-centers-explore-novel-ways-to-cut-energy-use.html",
+      "image": "/ccu/carbonfootprint/assets/climatechange.renewablegrid.jpg"
     },
     {
       "type": "cta-link",
       "links": [
         {
-          "text": "Learn more",
-          "url": "https://www.ampproject.org/stories/"
+          "text": "About the Digital Advisory Unit",
+          "url": "https://www.imf.org/"
         }
       ]
     }
